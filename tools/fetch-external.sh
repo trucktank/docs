@@ -52,7 +52,7 @@ cd pages/learn/more/masterclasses/ && {
   mv README.md host-os-masterclass.md
   curl -O -L https://raw.githubusercontent.com/balena-io-projects/services-masterclass/master/README.md
   mv README.md services-masterclass.md
-  curl -O -L https://raw.githubusercontent.com/balena-io-projects/balena-fleet-management-masterclass/master/README.md
+  curl -O -L https://raw.githubusercontent.com/balena-io-projects/balena-fleet-management-masterclass/format-for-external-docs/README.md
   mv README.md fleet-management-masterclass.md
   cd -
 }
