@@ -77,7 +77,13 @@ Learn
       [/learn/more/examples/snippets]
     [/learn/more/resources]
     [/learn/more/collected-data]
-    [/learn/more/masterclass]
+    Masterclasses
+      [/learn/more/masterclasses/overview]
+      CLI[/learn/more/masterclasses/cli-masterclass]
+      Advanced CLI[/learn/more/masterclasses/advanced-cli-masterclass]
+      Host OS[/learn/more/masterclasses/host-os-masterclass]
+      Services[/learn/more/masterclasses/services-masterclass]
+      Fleet Management[/learn/more/masterclasses/fleet-management-masterclass]
 
 FAQ
 
