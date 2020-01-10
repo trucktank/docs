@@ -4,7 +4,7 @@
 # get latest CLI docs
 cd pages/reference/ && {
   curl -O -L https://github.com/balena-io/balena-cli/raw/master/doc/cli.markdown
-  mv cli.markdown cli.md
+  mv cli.markdown balena-cli.md
   cd -
 }
 
@@ -47,7 +47,7 @@ cd pages/learn/more/masterclasses/ && {
   curl -O -L https://raw.githubusercontent.com/balena-io-projects/balena-cli-masterclass/master/README.md
   mv README.md cli-masterclass.md
   curl -O -L https://raw.githubusercontent.com/balena-io-projects/balena-cli-advanced-masterclass/master/README.md
-  mv README.md advanced-cli-masterclass.md
+  mv README.md advanced-cli.md
   curl -O -L https://raw.githubusercontent.com/balena-io-projects/balenaos-masterclass/master/README.md
   mv README.md host-os-masterclass.md
   curl -O -L https://raw.githubusercontent.com/balena-io-projects/services-masterclass/master/README.md

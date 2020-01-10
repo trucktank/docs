@@ -27,12 +27,12 @@ module.exports =
   externalDocs:
     "python-sdk": 'https://github.com/balena-io/balena-sdk-python/edit/master/DOCUMENTATION.md'
     "node-sdk": 'https://github.com/balena-io/balena-sdk/edit/master/DOCUMENTATION.md'
-    "cli": 'https://github.com/balena-io/balena-cli/edit/master/doc/cli.markdown'
+    "balena-cli": 'https://github.com/balena-io/balena-cli/edit/master/doc/cli.markdown'
     "supervisor-api": 'https://github.com/balena-io/balena-supervisor/edit/master/docs/API.md'
     "update-locking": "https://github.com/balena-io/balena-supervisor/edit/master/docs/update-locking.md"
     "diagnostics": "https://github.com/balena-io/device-diagnostics/edit/master/diagnostics.md"
     "cli-masterclass": "https://github.com/balena-io-projects/balena-cli-masterclass/edit/master/README.md"
-    "advanced-cli-masterclass": "https://github.com/balena-io-projects/balena-cli-advanced-masterclass/edit/master/README.md"
+    "advanced-cli": "https://github.com/balena-io-projects/balena-cli-advanced-masterclass/edit/master/README.md"
     "host-os-masterclass": "https://github.com/balena-io-projects/balenaos-masterclass/edit/master/README.md"
     "services-masterclass": "https://github.com/balena-io-projects/services-masterclass/edit/master/README.md"
     "fleet-management-masterclass": "https://github.com/balena-io-projects/balena-fleet-management-masterclass/edit/master/README.md"
