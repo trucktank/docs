@@ -1,5 +1,6 @@
 ---
-title: Overview
+title: Masterclass Overview
+excerpt: In-depth exercises designed to take you from a {{ $names.company.lower }} beginner to power user
 ---
 
 # {{ $names.company.upper }} Masterclasses
