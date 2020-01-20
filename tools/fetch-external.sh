@@ -44,7 +44,7 @@ cd pages/learn/deploy/release-strategy/ && {
 
 # get meta-balena README and extract partials
 cd shared/meta-balena/ && {
-  curl -O -L https://raw.githubusercontent.com/balena-os/meta-balena/development/README.md
+  curl -O -L https://raw.githubusercontent.com/balena-os/meta-balena/master/README.md
   mv README.md meta-balena.md
   # Extract modem text
   ../../tools/extract-markdown.sh "Modems" < meta-balena.md > supported-modems.md
