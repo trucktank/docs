@@ -15,7 +15,9 @@
     "build": "./tools/build.sh && webpack -p",
     "watch-pages": "watch ./tools/build.sh pages shared templates config",
     "watch-assets": "webpack -w",
-    "watch": "npm run watch-pages & npm run watch-assets"
+    "watch": "npm run watch-pages & npm run watch-assets",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -36,10 +38,11 @@
     "express-http-to-https": "1.1.4",
     "headroom.js": "0.9.3",
     "highlight.js": "9.11.0",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "jquery-colorbox": "1.6.4",
     "lodash": "^4.17.15",
-    "metalsmith-prefixoid": "^1.0.3"
+    "metalsmith-prefixoid": "^1.0.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "american-british-english-translator": "^0.1.2",
@@ -49,5 +52,6 @@
     "url-loader": "0.5.8",
     "watch": "^0.18.0",
     "webpack": "2.4.1"
-  }
+  },
+  "snyk": true
 }
